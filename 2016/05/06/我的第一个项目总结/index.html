@@ -17,7 +17,7 @@
 <!--<![endif]-->
 
 <head>
-  <title>Archives: 2016 | 我的博客</title>
+  <title>我的第一个项目总结 | 我的博客</title>
   <!-- Meta data -->
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -84,7 +84,7 @@
 </head>
 
 <!--
-<body class="home-template">
+<body class="post-template">
 -->
 <body id="index" class="lightnav animsition">
 
@@ -221,46 +221,52 @@
 
         <!-- ============================ END Hero Image =========================== -->
       
-
-
-<section id="services">
+<section id="intro">
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row boxes">
-                    
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2016/05/06/我的第一个项目总结/">我的第一个项目总结</a></h4>
-                            
-                            <p><time datetime="2016-05-06T09:56:47.000Z"><a href="/2016/05/06/我的第一个项目总结/">2016-05-06</a></time></p>
-                        </div>
-                    
-                        
-                        
-                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                            
-                              <h4 class="title"><a href="/2016/05/06/hello-world/">Hello World</a></h4>
-                            
-                            <p><time datetime="2016-05-06T07:04:57.292Z"><a href="/2016/05/06/hello-world/">2016-05-06</a></time></p>
-                        </div>
-                    
-                </div>
-            </div>    
+        <div class="row col-md-offset-2">
+            <div class="col-md-8">
+    			<span class="post-meta">
+      <time datetime="2016-05-06T09:56:47.000Z" itemprop="datePublished">
+          2016-05-06
+      </time>
+    
+</span>
+                <h1>我的第一个项目总结</h1>
+            </div>
         </div>
-    </div>
-</section> 
+        <div class="col-md-8 col-md-offset-2">
+      		<p>这是我的第一个项目，虽然死得很惨烈，当我却从中获得了许多。<br>首先，就我负责的前端方面主要存在以下问题：<br>    1.没有设置最小宽度出现水平滚动条导致屏幕缩小之后所有的元素挤在了一起。<br>    2.没有做到移动端适配。<br>    3.响应式没有处理好小屏的看起来都挤在了一起（与移动端适配有交集）。<br>    4.图片拉伸较为严重。<br>下面提出以上问题的解决方案：<br>    1.给body添加min-width属性让它在窗口宽度小于最小值时自动出现水平滚动条。<br>    2.移动端的适配有两种方案：一是写两套网站（适用于移动端页面变化较大），然后检测设备进行跳转；二是用媒体查询分别写两大块css，根据屏幕分辨率来区分用户的浏览设备（适用于移动端页面变化较小）。<br>    3.第三个问题与第四个问题再猜用媒体查询时要选对正确的元素进行属性的修改，还有对于图片可以使用img标签和background混用的手段，只用单一手段是很难做到图片正常显示的，还要注意对父元素的宽高设置如利用max-height等属性对父元素设置。<br>对于第一次项目本身，收获最大的（也是项目制作过程中最困难的）是与各部门之间的交流，在这次项目中，出现了美工逼死前段，前段逼死程序的的严重问题，先是美工设计的效果前段很多只能用插件实现（水平有限啊。。。），然后前段生成的html后台操作时困难重重，在翻来覆去的改设计，不断更新代码和后台一遍又一遍的重复运行后，终于形成了一个设计平平，代码混乱，没有功能的尸体网站，尤其是在与后台打交道的过程中，我的首页HTML几乎重新返工，且与美工那边的交流也比较困难，所以在以后做项目时，要多多了解其他部门要干什么，怎么干，因为你的工序肯定会在后面产生重大影响，交流过少很有可能导致项目制作失败。<br>以上就是我从第一次项目中所得到的，下一步还是要扎实打基础，遇到不懂的也会多于学长和其他部门的人交流，一个人的力量毕竟有限（一个人写前端也是够累的），希望能与其他部门的兄弟们以默契的配合成功完成下一个项目。</p>
 
-<section id="statement">
-    <div class="container text-center wow fadeInUp" data-wow-delay="0.5s">
-        <div class="row">
-            <p>虽然还没想好写点什么，但是总觉得这里放句话比较和谐。</p>
+            <div class="clearfix"></div>
+            <hr class="nogutter">
         </div>
+        <nav class="pagination" role="pagination">
+    
+    
+    <a class="pull-right" href="/2016/05/06/hello-world/">
+        Hello World →
+    </a>
+    
+</nav>
+
+        <div class="duoshuo">
+<div class="ds-thread" data-thread-key="2016/05/06/我的第一个项目总结/" data-title="我的第一个项目总结" data-url="http://friend.github.io/2016/05/06/我的第一个项目总结/"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"duoshuo_name"};
+(function() {
+	var ds = document.createElement('script');
+	ds.type = 'text/javascript';ds.async = true;
+	ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+	ds.charset = 'UTF-8';
+	(document.getElementsByTagName('head')[0] 
+	 || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+</div>
     </div>
 </section>
+
+
       
 <!-- ============================ Footer =========================== -->
 
